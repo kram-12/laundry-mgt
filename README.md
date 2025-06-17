@@ -1,8 +1,3 @@
-Sure! Here's your updated and polished `README.md` for the **Laundry Automation System**, with the repository name changed to `laundry-mgt` and the database name consistently set to `laundry`.
-
----
-
-````markdown
 # Laundry Automation System
 
 **Laundry Automation System** is a web application designed to streamline and digitize the laundry management process in college dormitories and shared living spaces. With features like **QR code scanning**, **real-time tracking**, and **email notifications**, this system reduces wait times, eliminates manual tracking, and improves overall user experience.
