@@ -15,8 +15,8 @@
       <div class="container__content">
           <h1>Log In</h1>
           <div class="logins">
-            <a href="http://localhost/Laundry-Automation/Auth/Admin_login/login.php"><b>ADMIN</b></a>
-            <a href="http://localhost/Laundry-Automation/Auth/Student_login/login.php"><b>STUDENT</b></a>
+            <a href="http://localhost/laundry-mgt/Auth/Admin_login/login.php"><b>ADMIN</b></a>
+            <a href="http://localhost/laundry-mgt/Auth/Student_login/login.php"><b>STUDENT</b></a>
           </div>
       </div>
       <div class="container__image"></div>

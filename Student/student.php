@@ -3,7 +3,7 @@
 
 session_start();
     if (!isset($_SESSION['regd'])) {
-        header("Location: http://localhost/Laundry-Automation/Auth/login.php");
+        header("Location: http://localhost/laundry-mgt/Auth/login.php");
         exit();
     }
 ?>
@@ -25,7 +25,7 @@ session_start();
         </div>
         <ul>
             <li class="act"><a href="#">Profile</a></li>
-            <li><a href="http://localhost/Laundry-Automation/Student/laundry.php">Laundry</a></li>
+            <li><a href="http://localhost/laundry-mgt/Student/laundry.php">Laundry</a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>
     </div>

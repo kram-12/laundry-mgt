@@ -112,7 +112,7 @@
             });
         </script>
 
-        <button onclick="window.location.href='http://localhost/Laundry-Automation/Auth/login.php'">Go to Login</button>
+        <button onclick="window.location.href='http://localhost/laundry-mgt/Auth/login.php'">Go to Login</button>
     </div>
 
      <?php

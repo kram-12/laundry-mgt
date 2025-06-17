@@ -1,7 +1,7 @@
 <?php 
 session_start();
     if (!isset($_SESSION['regd'])) {
-        header("Location: http://localhost/Laundry-Automation/Auth/login.php");
+        header("Location: http://localhost/laundry-mgt/Auth/login.php");
         exit();
     }
 ?>
@@ -40,7 +40,7 @@ session_start();
             <img src="https://srmap.edu.in/file/2019/12/White.png" alt="SRMAP">
         </div>
         <ul>
-            <li class="act"><a href="http://localhost/Laundry-Automation/Student/student.php">Profile</a></li>
+            <li class="act"><a href="http://localhost/laundry-mgt/Student/student.php">Profile</a></li>
             <li><a href="#">Laundry</a></li>
             <li><a href="logout.php">Logout</a></li>
         </ul>

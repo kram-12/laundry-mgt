@@ -73,7 +73,7 @@
     if ($hashedPassword) {
         if (password_verify($submittedPassword, $hashedPassword)) {
             $_SESSION['regd'] = $regd;
-            header("Location: http://localhost/Laundry-Automation/Student/student.php");
+            header("Location: http://localhost/laundry-mgt/Student/student.php");
             exit();
         } else {
             echo "<script>alert('Invalid password. Please try again.');</script>";

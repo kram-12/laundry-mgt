@@ -30,7 +30,7 @@ function handleSubmit(event) {
   console.log('Sending:', `regd=${regd}, password=${password}`);
 
   const xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://localhost/Laundry-Automation/Auth/validate_login.php', true);
+  xhr.open('POST', 'http://localhost/laundry-mgt/Auth/validate_login.php', true);
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
   xhr.send(`regd=${encodeURIComponent(regd)}&password=${encodeURIComponent(password)}`);
@@ -40,7 +40,7 @@ function handleSubmit(event) {
       console.log('Response:', xhr.responseText);
 
       if (xhr.responseText.trim() === 'success') {
-        window.location.href = `http://localhost/Laundry-Automation/Student/student.php?regd=${encodeURIComponent(regd)}`;
+        window.location.href = `http://localhost/laundry-mgt/Student/student.php?regd=${encodeURIComponent(regd)}`;
       } else {
         alert('Invalid registration ID or password.');
       }

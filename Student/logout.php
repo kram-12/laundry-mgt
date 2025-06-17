@@ -8,6 +8,6 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to login page after logout
-header("Location: http://localhost/Laundry-Automation/Auth/login.php");
+header("Location: http://localhost/laundry-mgt/Auth/login.php");
 exit();
 ?>

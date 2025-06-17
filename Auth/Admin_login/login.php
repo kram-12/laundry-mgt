@@ -16,7 +16,7 @@
         <div class="container__ele">
           <h1>Admin Log In</h1>
         </div>
-        <form action="http://localhost/Laundry-Automation/Admin/admin.php">
+        <form action="http://localhost/laundry-mgt/Admin/admin.php">
           <label for="email">Email (Laundry Attendant)</label>
           <div class="input__row">
             <input type="email" placeholder="Enter Your Email" required/>
